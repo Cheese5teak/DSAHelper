@@ -6,43 +6,43 @@ DSAHelper helps users understand algorithms and data structures through interact
 
 ## Setup Instructions
 Prerequisites
-"
+'''
 Node.js (v14 or later)
 Rust (latest stable)
 wasm-pack
-"
+'''
 
 ## Setting Up the Development Environment
 
 Clone the repository
-"
+'''
 bashgit clone https://github.com/yourusername/algoviz.git
 cd algoviz
-" 
+'''
 
 Set up the Rust/WebAssembly project
-"
+'''
 bash# Add WebAssembly target
 rustup target add wasm32-unknown-unknown
-"
+'''
 
 Build the WebAssembly package
-"
+'''
 cd algoviz  # The Rust project directory
 wasm-pack build --target web
-"
+'''
 
 Set up the React frontend
-"
+'''
 bashcd ../frontend  # Navigate to the React project directory
 npm install
 npm install ../algoviz/pkg  # Install the local WebAssembly package
-"
+'''
 
 Start the development server
-"
+'''
 bashnpm start
-"
+'''
 
 The application should now be running at http://localhost:3000
 
