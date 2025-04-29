@@ -46,20 +46,6 @@ bashnpm start
 
 The application should now be running at http://localhost:3000
 
-
-## Project Structure
-algoviz/
-├── algoviz/            # Rust WebAssembly library
-│   ├── src/
-│   │   └── lib.rs      # Main Rust code
-│   └── Cargo.toml      # Rust dependencies
-└── frontend/           # React application
-    ├── public/
-    ├── src/
-    │   ├── components/ # Visualization components
-    │   └── App.js      # Main application
-    └── package.json    # JavaScript dependencies
-
 ## Available Visualizations
 
 Array operations
