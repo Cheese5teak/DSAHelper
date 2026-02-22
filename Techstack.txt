@@ -1,0 +1,31 @@
+Frontend:
+React (TypeScript): For interactive UI and visualizations.
+Material UI: For easy, accessible, and modern component styling.
+React Router: For navigation.
+
+Backend:
+FastAPI (Python): Modern, fast, and beginner-friendly web framework. Great for REST APIs and easy integration with Python DSA logic.
+Pydantic: For data validation and serialization in FastAPI.
+
+Visualization:
+React-Vis: For rendering DSA visualizations in the frontend.
+
+Communication:
+REST API (JSON): FastAPI serves data and DSA operations to React via HTTP endpoints.
+
+Development Tools:
+Docker: For easy setup and deployment (optional, but recommended).
+GitHub Actions: For CI/CD (optional, for learning purposes).
+
+Testing:
+Pytest (Python): For backend tests.
+Jest (JavaScript): For frontend tests.
+
+Other Recommendations:
+Use Pipenv for Python dependency management.
+Use Vite for React project scaffolding.
+
+Beginner-Friendly Tips:
+Keep backend and frontend in separate folders (monorepo).
+Write clear documentation and comments.
+Provide example DSA algorithms in Python for others to extend.
